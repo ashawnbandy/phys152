@@ -1,0 +1,243 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8095,        233]
+NotebookOptionsPosition[      7537,        208]
+NotebookOutlinePosition[      7894,        224]
+CellTagsIndexPosition[      7851,        221]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<ErrorBarPlots`\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.1", ",", "5.5044"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.055", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.9", ",", "5.344"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.0027", "]"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "2.75"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"5.2", ",", "5.6"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"Axes", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"AxesLabel", "\[Rule]", " ", "Volts"}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "\[Rule]", 
+    "\"\<Delta V1 Measured vs Calculated with Error Bars\>\""}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.572134643774376*^9, {3.572134722774334*^9, 3.5721347388259497`*^9}, {
+   3.572134794559764*^9, 3.5721348092660303`*^9}, {3.572134846666741*^9, 
+   3.572134853943561*^9}, {3.572134955669128*^9, 3.5721349844296837`*^9}, {
+   3.572135038851071*^9, 3.572135131433481*^9}, {3.572135180128008*^9, 
+   3.572135189430917*^9}, {3.572135240847068*^9, 3.5721352672275667`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {Hue[0.67, 0.6, 0.6], 
+    PointBox[{{1.1, 5.5044}, {1.9, 
+     5.344}}], {{LineBox[{{1.1, 5.5594}, {1.1, 5.449400000000001}}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 5.5594}], 
+        Offset[{-1.5, 0}, {1.1, 5.5594}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 5.449400000000001}], 
+        Offset[{-1.5, 0}, {1.1, 5.449400000000001}]}]}, {
+      LineBox[{{1.9, 5.3467}, {1.9, 5.3413}}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 5.3467}], 
+        Offset[{-1.5, 0}, {1.9, 5.3467}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 5.3413}], 
+        Offset[{-1.5, 0}, {1.9, 5.3413}]}]}}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->FormBox["Volts", TraditionalForm],
+  AxesOrigin->{0, 5.2},
+  PlotLabel->FormBox[
+   "\"Delta V1 Measured vs Calculated with Error Bars\"", TraditionalForm],
+  PlotRange->{{0, 2.75}, {5.2, 5.6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.572134647229704*^9, 3.572134746540267*^9, 3.5721348612461843`*^9, 
+   3.5721349909529676`*^9, {3.572135073467493*^9, 3.572135134324744*^9}, 
+   3.5721351968493013`*^9, 3.572135271668222*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<ErrorBarPlots`\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.1", ",", "3.2747"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.033", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.9", ",", "3.1904"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.0016", "]"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "2.75"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3.18", ",", "3.33"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"Axes", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"AxesLabel", "\[Rule]", " ", "Volts"}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "\[Rule]", 
+    "\"\<Delta V2 Measured vs Calculated with Error Bars\>\""}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.572135329181716*^9, {3.57213537478126*^9, 3.5721354648477182`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {Hue[0.67, 0.6, 0.6], 
+    PointBox[{{1.1, 3.2747}, {1.9, 
+     3.1904}}], {{LineBox[{{1.1, 3.3077}, {1.1, 3.2417000000000002`}}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 3.3077}], 
+        Offset[{-1.5, 0}, {1.1, 3.3077}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 3.2417000000000002`}], 
+        Offset[{-1.5, 0}, {1.1, 3.2417000000000002`}]}]}, {
+      LineBox[{{1.9, 3.1919999999999997`}, {1.9, 3.1888}}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 3.1919999999999997`}], 
+        Offset[{-1.5, 0}, {1.9, 3.1919999999999997`}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 3.1888}], 
+        Offset[{-1.5, 0}, {1.9, 3.1888}]}]}}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->FormBox["Volts", TraditionalForm],
+  AxesOrigin->{0, 3.18},
+  PlotLabel->FormBox[
+   "\"Delta V2 Measured vs Calculated with Error Bars\"", TraditionalForm],
+  PlotRange->{{0, 2.75}, {3.18, 3.33}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.572135415622468*^9, 3.5721354711272306`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.1", ",", "0.02"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.0002", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.9", ",", "0.04"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.0003", "]"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "2.75"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0.019", ",", "0.041"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"Axes", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"AxesLabel", "\[Rule]", " ", "Amps"}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "\[Rule]", 
+    "\"\<Delta I, Measured vs Calculated with Error Bars\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.572140678016616*^9, 3.5721407474051733`*^9}, {
+  3.572140794734724*^9, 3.572140897695088*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {Hue[0.67, 0.6, 0.6], 
+    PointBox[{{1.1, 0.02}, {1.9, 
+     0.04}}], {{LineBox[{{1.1, 0.0202}, {1.1, 0.0198}}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 0.0202}], 
+        Offset[{-1.5, 0}, {1.1, 0.0202}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.1, 0.0198}], 
+        Offset[{-1.5, 0}, {1.1, 0.0198}]}]}, {
+      LineBox[{{1.9, 0.0403}, {1.9, 0.0397}}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 0.0403}], 
+        Offset[{-1.5, 0}, {1.9, 0.0403}]}], 
+      LineBox[{Offset[{1.5, 0}, {1.9, 0.0397}], 
+        Offset[{-1.5, 0}, {1.9, 0.0397}]}]}}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->FormBox["Amps", TraditionalForm],
+  AxesOrigin->{0, 0.019},
+  PlotLabel->FormBox[
+   "\"Delta I, Measured vs Calculated with Error Bars\"", TraditionalForm],
+  PlotRange->{{0, 2.75}, {0.019, 0.041}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.572140754849862*^9, {3.5721408208222103`*^9, 3.572140833591071*^9}, 
+   3.572140870596858*^9, 3.572140901490408*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 652},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1371, 34, 73, "Input"],
+Cell[1953, 58, 1200, 26, 268, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3190, 89, 1075, 30, 73, "Input"],
+Cell[4268, 121, 1102, 23, 268, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5407, 149, 1016, 29, 58, "Input"],
+Cell[6426, 180, 1095, 25, 267, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
