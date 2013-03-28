@@ -1,0 +1,30 @@
+\subsection{DATA SHEET \#3}
+		\item Get several cycles on the screen by increasing or decreasing the frequency of the square wave from the function generator, and record that frequency below.  You want to set the frequency so that the charging and discharging cycle just reaches the maximum and minimum values, respectively (about 4 time constants wide).\\
+		
+		$f_1 = 813.6$  cycles per second\\
+		
+		\item Display only the capacitor waveform by setting the MODE switch to CH2.\\
+		
+		\item Push in GND for CH2 and use the vertical position adjust to center the beam trace on the screen.  Then make sure the COUPLING is set back to DC and the capacitor waveform is on the screen.\\
+		
+		\item Once the capacitor waveform is back on the screen, the goal is to get the heigh of one cycle to fill the full vertical eight (8) divisions on the screen.  The reason is purely practical:  we want to experimentally determine the time constant,  when the value of the voltage falls to about 37\% of its maximum.  If the maximum value of voltage is 8 divisions, then 0.37 * 8 = 2.96 $\approx$ 3.  So the time constant measured on the screen is simply the number of horizontal divisions from the left to where the voltage crosses into that $3^{rd}$ vertical DIV.
+		
+		\begin{enumerate}[a.]
+			\item Adjust the CH2 VOLTS/DIV control to extend the vertical waveform height to beyond the 8 division vertical range.  Then use the central CAL knob to adjust the height downward until waveform just fits into the.  For this purpose it is OK to remove the calibration from the vertical scale, because the scaling is proportional and maintains the relationship between the maximum and the 0.37 of the maximum.\\
+			
+			\item On the TRIGGER LEVEL control, pull out the central knob to trigger on the negative slope of the discharge part of the cycle.\\
+			
+			\item Adjust the HORIZ POSITION to set the leftmost part of the signal at the top left corner of the display.\\
+			
+			\item Then adjust the TIM/DIV knob to spread the discharge line as widely as possible along the horizontal axis, while still being able to see where ethe descending voltage crosses the ? to ? of the $3^{rd}$ vertical division.\\
+			
+			\item As precisely as possible, count and record below the number of divisions horizontally from the left edge to the crossing point described above.  For example, in the picture above, that is 3.9 DIV.
+		\end{enumerate}
+		
+		\item \# of time divisions for voltage to drop to 0.37 * max = $ 1.2 \pm 0.05$\\
+		
+		\item TIME/DIV SETTING = 20 microseconds\\
+		
+		\item TIME CONSTANT (EXP. MEASUREMENT) = $ 24  \pm 0.05$ microseconds\\
+		
+	\end{enumerate}

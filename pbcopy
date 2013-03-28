@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage[top=2in, bottom=1.5in, left=1in, right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\pagestyle{fancyplain}
+
+\lhead{PHYS 152 Section 10}
+
+\rhead{A. Shawn Bandy 
+(003635396)}
+
+
+\begin{document}
+\title{Lab \#5:  name}
+\author{A. Shawn Bandy}
+\date{March 13\textsuperscript{th}, 2013}
+\maketitle
+\begin{abstract}
+Using resistors in parallel and in series with a DC power supply we measured voltage, current and resistance.  Using Ohm's Law we calculated these potentially unknown values
+from our measurement.
+\end{abstract}
+\begingroup
+	\section{Data and Data Tables}\hfill\\
+		\let\clearpage\relax
+			\include{lab6_ds1_20130312}
+			\include{lab6_ds2_20130312}
+			\include{lab6_ds3_20130312}
+			\include{lab6_ds4_20130312}
+			\include{lab6_ds5_20130312}
+			\include{lab6_ds6_20130312}
+\endgroup
+\begingroup
+	\section{Graphs}\hfill\\
+		See Data Tables section
+\endgroup
+\begingroup
+	\section{Uncertainty Calculations}\hfill\\
+		\let\clearpage\relax
+			See Data Tables section
+\endgroup
+\begingroup
+	\section{Results}\hfill\\
+		\let\clearpage\relax
+			See Data Tables section
+\endgroup
+\begingroup
+	\section{Discussion}\hfill\\
+		\let\clearpage\relax
+			\include{lab6_discussion}
+\endgroup
+\begingroup
+	\section{Answers }\hfill\\
+		\let\clearpage\relax
+			All questions for this lab were on the Data Tables worksheets and so are in-line in this document as well.
+\endgroup
+\end{document}
